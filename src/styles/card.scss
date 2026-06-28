@@ -1,9 +1,10 @@
 .product {
   box-sizing: border-box;
-  width: 200px;
+  width: 280px;
   border: 1px solid $border-color;
   border-radius: 5px;
   padding: 32px 16px 16px;
+  overflow: hidden;
   background: $white-color;
 
   &__photo {
@@ -11,6 +12,7 @@
     margin: 0 auto 40px;
     width: 160px;
     height: 134px;
+    object-fit: contain;
   }
 
   &__title {
